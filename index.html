@@ -86,11 +86,13 @@
                     <p class="text-mail"><i class="fa-regular fa-envelope-open"></i> s.sagsilver@gmail.com</p>
                     <p class="text-phone"> <i class="fa-solid fa-mobile-screen"></i>+593983365415</p>
                 </div>
-                <form action="">
-                    <input type="text" placeholder="Tu Nombre o empresa">
-                    <input type="email" placeholder="Tu correo o el de tu empresa">
-                    <textarea name="" id="" placeholder="Deja tu mensaje"></textarea>
-                    <input type="button" value="Enviar Mensaje" id="enviar">
+                <form action="https://formsubmit.co/sag.soporteti@gmail.com" method="POST">
+                    <input type="text" name="nombre" placeholder="Tu Nombre o empresa">
+                    <input type="email" name="correo" placeholder="Tu correo o el de tu empresa" required
+                        title="Introduce un correo electrónico válido.">
+                    <textarea name="mensaje" placeholder="Deja tu mensaje" required minlength="10" maxlength="500"
+                        title="El mensaje debe tener entre 10 y 500 caracteres."></textarea>
+                    <input type="submit" value="Enviar Mensaje" id="enviar">
                 </form>
             </div>
 
