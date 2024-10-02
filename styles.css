@@ -260,6 +260,17 @@ main section:nth-child(4) form input:focus{
 }
 
 @media (max-width:760px) {
+  header div{
+    display: flex;
+    flex-direction: column;   
+  }
+  header div p{    
+    font-size: 28px;
+    margin-bottom: 10px;   
+  }
+  header div nav{   
+    width: 100%;
+  }
   .cards {
     display: flex;
     flex-direction: column;
@@ -268,6 +279,7 @@ main section:nth-child(4) form input:focus{
     width: 100%;
     margin-bottom: 20px;
   }  
+
 }
 @media (min-width:760px){
   main section:nth-child(3) div{
