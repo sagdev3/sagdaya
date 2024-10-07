@@ -26,10 +26,13 @@ header div{
  
 }
 header div p{
+  display: flex;
   font-weight: 700;
   font-size: 22px;
   color: #d940b3;
+  align-items: center;
 }
+
 header div p:hover{
   color: #8cbfe6;
 }
